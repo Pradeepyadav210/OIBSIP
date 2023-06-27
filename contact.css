@@ -1,0 +1,66 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+.navbar1{
+    color: #a9d0d4;
+    background-color: darkslategrey;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height: 75px;
+    background-image: url('circle.png');
+    background-size: 72px;
+    background-repeat: no-repeat;
+    align-items: center;
+    padding-top: 22px;
+    padding-left: 75px;
+}
+.navbar2{
+    position: absolute;
+    top: 74px;
+    width: 90px;
+    overflow: hidden;
+    bottom: 0;
+    background-color: darkslategrey;
+   
+    height: 100%;
+    left: 0;
+    transition: width 0.2 linear;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+    
+    
+    
+}
+.logo{
+    text-align: center;
+    display: flex;
+    transition: all 0.5s ease;
+}
+a{
+    position: relative;
+    color: #a9d0d4;
+    font-size: 14px;
+    display: table;
+    width: 300px;
+    padding: 10px;
+}
+a:hover{
+    background-color: #666;
+}
+.navbar2:hover{
+    width: 120px;
+    transition: all 0.5s ease;
+}
+.mail{
+    padding-left: 100px;
+}
+.mail a{
+    color: #000;
+    font-size: 22px;
+    align-items: center;
+}
+.top{
+    padding-left: 100px;
+}
